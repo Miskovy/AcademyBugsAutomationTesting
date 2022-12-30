@@ -75,5 +75,51 @@ public class AcademyBugsMainPage {
     public WebElement sortingselection(){
         return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/div[1]/select"));
     }
-
+    //Sucessful Buttons
+    public WebElement addtocartbtn0success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[1]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn1success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[2]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn2success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[3]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn3success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[4]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn4success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[5]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn5success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[6]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn6success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[7]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn7success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[9]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn8success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[10]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn9success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[12]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn10success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[13]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn11success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[15]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn12success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[17]/div/div[3]/div[2]/span/a[2]"));
+    }
+    public WebElement addtocartbtn13success(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/ul/li[18]/div/div[3]/div[2]/span/a[2]"));
+    }
+    // View Cart Button
+    public WebElement viewcartbtn(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[3]/div/div/div/main/article/div/section/div[2]/a"));
+    }
 }
